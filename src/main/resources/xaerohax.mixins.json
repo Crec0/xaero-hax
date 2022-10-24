@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xaerohax.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "GuiAddWaypointMixin",
+    "MapProcessorMixin",
+    "MapWriterMixin",
+    "ModSettingsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
